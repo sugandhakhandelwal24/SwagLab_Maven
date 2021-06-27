@@ -1,0 +1,4 @@
+test/Baseclass.class
+pages/ProductPage.class
+test/ProductSelection.class
+pages/LoginPage.class

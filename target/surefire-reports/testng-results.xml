@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2569" started-at="2021-06-27T07:16:02 UTC" finished-at="2021-06-27T07:16:04 UTC">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2569" started-at="2021-06-27T07:16:02 UTC" finished-at="2021-06-27T07:16:04 UTC">
+      <class name="test.ProductSelection">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.ProductSelection@131276c2]" name="setup" is-config="true" duration-ms="1602" started-at="2021-06-27T07:16:02 UTC" finished-at="2021-06-27T07:16:03 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:test.ProductSelection@131276c2]" name="login" duration-ms="454" started-at="2021-06-27T07:16:03 UTC" finished-at="2021-06-27T07:16:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="addtocart()[pri:0, instance:test.ProductSelection@131276c2]" name="addtocart" duration-ms="143" started-at="2021-06-27T07:16:04 UTC" depends-on-methods="test.ProductSelection.login" finished-at="2021-06-27T07:16:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method status="PASS" signature="cart()[pri:0, instance:test.ProductSelection@131276c2]" name="cart" duration-ms="99" started-at="2021-06-27T07:16:04 UTC" depends-on-methods="test.ProductSelection.addtocart" finished-at="2021-06-27T07:16:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:test.ProductSelection@131276c2]" name="TearDown" is-config="true" duration-ms="240" started-at="2021-06-27T07:16:04 UTC" finished-at="2021-06-27T07:16:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- test.ProductSelection -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
